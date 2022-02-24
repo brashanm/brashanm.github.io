@@ -223,7 +223,7 @@ section:nth-child(even) {
     margin: 0 5px;
 }
 
-.project-container {
+/*.project-container {
     padding: 25px 0;
     padding-bottom: 25px;
 }
@@ -306,6 +306,7 @@ section:nth-child(even) {
     font-weight: bolder;
     margin-bottom: 50px;
 }
+*/
 
 footer {
     background-color: #242424;
