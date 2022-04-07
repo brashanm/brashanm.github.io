@@ -7,14 +7,37 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, span {
-    color: #242424;
+h1, h2, h3, h4, h5, h6, span, p{
+    color: var(--secondary-color);
     text-align: center;
     line-height: 1.25;
 }
 
+:root {
+    --primary-color: white;
+    --secondary-color: #242424;
+    --third-color: #2e2e2e;
+    --fourth-color: #f4f4f4;
+}
+
+.dark-theme {
+    --primary-color: #242424;
+    --secondary-color: white;
+    --third-color: #f4f4f4;
+    --fourth-color: #2e2e2e;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
 h1 {
     font-size: 34px;
+}
+
+#icon {
+    width: 35px;
+    cursor: pointer;
 }
 
 p {
@@ -42,7 +65,7 @@ li {
 .navigation-anchor {
     margin: 0 12px;
     text-decoration: none;
-    color: #242424;
+    color: var(--secondary-color);
     font-weight: 700;
 }
 
@@ -52,9 +75,8 @@ li {
     text-decoration: none;
     font-weight: 700;
     color: white;
-    padding: 8px 20px;
+    padding: 8px 15px;
     transition: all 300ms ease;
-    margin-left: 12px;
 }
 
 .navigation-contact:hover{
@@ -63,7 +85,7 @@ li {
 
 .personal-logo {
     font-size: 42px;
-    color: black;
+    color: var(--secondary-color);
     margin: 0 12px;
 }
 
@@ -186,7 +208,7 @@ li {
 }
 
 section:nth-child(even) {
-    background-color: #f4f4f4;
+    background-color: var(--fourth-color);
 }
 
 .tech-stack {
@@ -248,7 +270,7 @@ section:nth-child(even) {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #1c1d25;
+    background-color: var(--secondary-color);
     opacity: 0;
     transition: opacity 300ms ease;
     z-index: 2;
@@ -282,7 +304,7 @@ section:nth-child(even) {
 
 .project-title, .project-materials, .project-paragraph, .project-link{
     text-align: left;
-    color: white;
+    color: var(--primary-color);
 
 }
 
@@ -307,16 +329,15 @@ section:nth-child(even) {
     margin-bottom: 50px;
 }
 
-
 footer {
-    background-color: #242424;
+    background-color: var(--fourth-color);
     padding: 25px 0;
     padding-bottom: 25px;
 }
 
 .bottom-logo {
     text-decoration: none;
-    color: white;
+    color: var(--secondary-color);
     font-size: 42px;
     text-align: center;
 }
@@ -330,7 +351,7 @@ footer {
 }
 
 .copyright {
-    color: white;
+    color: var(--secondary-color);
     text-align: center;
     font-size: 16px;
     margin-top: 20px;
@@ -345,7 +366,7 @@ a {
     content: "";
     position: absolute;
     height: 3px;
-    background-color: black;
+    background-color: var(--secondary-color);
     width: 0;
     bottom: -3px;
     right:0;
