@@ -23,6 +23,7 @@
                     <a href="mailto:brashanm@gmail.com" class="navigation-contact">Contact</a>
                 </li>
             </ul>
+            <img src="./assets/moon-solid.svg" id="icon" alt="Dark Mode" >
         </nav>
         <div class="flex flex-1">
             <div class="about-me-info row">
@@ -137,12 +138,9 @@
                             <img src="./assets/Website.png" class="project-image" alt="My Project!">
                             <div class="project-description">
                                 <h3 class="project-title">Personal Website</h3>
-                                <h4 class="project-materials">HTML, CSS</h4>
+                                <h4 class="project-materials">HTML, CSS, JavaScript</h4>
                                 <p class="project-paragraph">Developed a responsive, dynamic &amp; performant e-portfolio web application from scratch. Integrated animations in parts of the web application to draw users in and provide a more pleasant
 and responsive experience for the user.</p>
-                                <!--<a href="https://brashanm.github.io/" target="_blank" class="project-link">
-                                    <i class="fa-solid fa-display"></i>
-                                </a>-->
                             </div>
                         </div>
                     </li>
@@ -156,5 +154,16 @@ and responsive experience for the user.</p>
             <h3 class="copyright">Copyright &copy; 2022 Brashan Mohanakumar</h3>
         </div>
     </footer>
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function() {
+            document.body.classList.toggle("dark-theme");
+            if (document.body.classList.contains("dark-theme")) {
+                icon.src = "./assets/sun.png"
+            } else {
+                icon.src = "./assets/moon-solid.svg"
+            }
+        }
+    </script>
 </body>
 </html>
