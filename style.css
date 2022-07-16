@@ -179,6 +179,7 @@ li {
 .random-figure {
     width: 90%;
     margin: 0 auto;
+    border: 8px solid var(--secondary-color) ;
 }
 
 .flex2 {
