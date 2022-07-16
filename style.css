@@ -70,7 +70,7 @@ li {
 }
 
 .navigation-contact {
-    background-color: blue;
+    background-color: #00afec;
     border-radius: 50px;
     text-decoration: none;
     font-weight: 700;
@@ -80,7 +80,7 @@ li {
 }
 
 .navigation-contact:hover{
-    background-color: #3333FF;
+    background-color: blue;
 }
 
 .personal-logo {
@@ -90,7 +90,7 @@ li {
 }
 
 .coloured-text {
-    color: blue;
+    color: #00afec;
     font-weight: bolder;
 }
 
@@ -149,13 +149,13 @@ li {
 
 .about-me-link {
     font-size: 30px;
-    color: blue;
+    color: #00afec;
     text-decoration: none;
     padding: 16px;
 }
 
 .about-me-link:hover {
-    color: #3333FF
+    color: blue
 }
 
 .about-me-links {
