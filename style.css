@@ -39,7 +39,6 @@ h1 {
     width: 35px;
     cursor: pointer;
     margin: 0 12px;
-    padding-right: 10px;
 }
 
 p {
@@ -89,7 +88,6 @@ li {
     font-size: 42px;
     color: var(--secondary-color);
     margin: 0 12px;
-    padding-left: 10px;
 }
 
 .coloured-text {
