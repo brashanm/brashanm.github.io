@@ -119,7 +119,6 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
 }
 
 .about-me-paragraph {
@@ -149,13 +148,15 @@ li {
 }
 
 .about-me-link {
-    font-size: 30px;
+    font-size: 50px;
     color: #00afec;
     text-decoration: none;
     padding: 16px;
+    transition: all 300ms ease;
 }
 
 .about-me-link:hover {
+    transform: scale(1.25);
     color: blue
 }
 
