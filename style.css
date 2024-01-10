@@ -95,6 +95,22 @@ li {
     margin: 0 12px;
 }
 
+.familyGuy-container {
+    margin: auto;
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.familyGuy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 7px solid #00afec;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
 .coloured-text {
     color: #00afec;
     font-weight: bolder;
